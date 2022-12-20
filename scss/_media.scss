@@ -1,0 +1,196 @@
+@media (max-width: 1200px) {
+  .table {
+    &__item {
+      &_right {
+        margin-left: 40px;
+      }
+    }
+
+    &__buttons {
+      margin-left: 30px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .main {
+    &__close {
+      display: block;
+    }
+
+  }
+
+  .navbar {
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+    visibility: hidden;
+    overflow: auto;
+
+    &__menu {
+      display: block;
+    }
+
+    &__item {
+
+      &_menu {
+        display: block;
+        margin-bottom: 20px;
+      }
+
+    }
+  }
+
+  .nav-menu {
+
+    &__menu {
+      display: block;
+    }
+
+    &__item {
+
+      &_menu {
+        display: block;
+        margin-bottom: 20px;
+      }
+
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  .image-right {
+    margin-right: 0 !important;
+  }
+
+  .user {
+    &__image {
+      width: 45px px;
+      height: 45px;
+      margin-right: 0;
+    }
+
+    &__info {
+      padding: 10px 17px 10px 17px;
+    }
+
+  }
+
+  .button {
+    padding: 13px 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 12px;
+  }
+
+  .header {
+    padding: 10px 0;
+  }
+
+  .user {
+    margin-top: 10px;
+
+    &__info {
+      padding: 0px;
+      background-color: transparent;
+      box-shadow: none;
+    }
+
+    &__message {
+      width: 45px;
+      height: 45px;
+    }
+  }
+
+  .button {
+    padding: 10px 15px;
+
+  }
+
+  .modal-window {
+    width: 430px;
+
+    &__title {
+      width: 240px;
+      margin-bottom: 20px;
+    }
+
+    &__text {
+      margin-top: 0;
+    }
+
+    &__warning {
+      margin-bottom: 20px;
+    }
+
+    &__select {
+      width: 100%;
+
+      &-blocks {
+        flex-direction: column;
+        margin-bottom: 0;
+      }
+
+      &-block {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+
+    }
+  }
+
+  .input_block {
+    margin-bottom: 20px;
+  }
+
+
+}
+
+
+@media (max-width: 460px) {
+  .table {
+    &__item {
+      &_right {
+        margin-left: 10px;
+      }
+    }
+
+    &__buttons {
+      margin-left: 0;
+    }
+  }
+
+  .modal-window {
+    width: 320px;
+  }
+
+  .input-block__button {
+    padding: 0 10px
+  }
+
+  .modal-button {
+    width: 120px;
+    text-align: center;
+  }
+
+  .modal-buttons {
+    width: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .button {
+    padding: 5px 10px;
+  }
+}
+
+@media (max-height: 375px) {
+  .modal-window {
+    margin-top: 190px;
+  }
+
+}

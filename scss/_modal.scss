@@ -1,0 +1,164 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 102;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden;
+  overflow: auto;
+
+  &-window {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 617px;
+    padding: 30px 35px 40px;
+    min-height: 444px;
+    background-color: #ffffff;
+    box-shadow: 0px 30px 38px 0px rgba(37, 37, 37, 0.1);
+    border-radius: 5px;
+
+    &__up {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    &__close {
+      font-size: 21px;
+      color: black;
+      opacity: 0.56;
+
+    }
+
+    &__title {
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 25px;
+      margin-bottom: 50px;
+      color: #343434;
+    }
+
+    &__form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    &__text {
+      display: inline-block;
+      margin: 15px 0 5px;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 20px;
+      color: #343434;
+    }
+
+    &__select {
+      width: 240px;
+      padding: 10px 15px;
+      font-size: 14px;
+      line-height: 20px;
+      color: #939699;
+      background-image: url(../img/modal/arrow_point.png);
+      background-position: 95% 50%;
+      background-repeat: no-repeat;
+      border: 1px solid #cdcdcd;
+      border-radius: 3px;
+      appearance: none;
+      outline: none;
+      cursor: pointer;
+
+      &-blocks {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      }
+
+      &-block {
+        width: 240px;
+      }
+    }
+
+    &__item {
+      color: $text-color;
+    }
+
+
+    &__input {
+      width: 90%;
+      padding: 10px;
+      font-size: 14px;
+      line-height: 18px;
+      background-color: #e6e6e9;
+      border-radius: 2px;
+      outline: none;
+    }
+
+    &__warning {
+      display: flex;
+      margin-bottom: 43px;
+
+      &-image {
+        width: 52px;
+        height: 52px;
+        margin-right: 16px;
+      }
+
+      &-text {
+        width: 458px;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 500;
+        color: #7d7d7d;
+      }
+
+    }
+
+    &__button {
+      width: fit-content;
+      padding: 10px 25px;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 20px;
+      border: none;
+      color: #ffffff;
+      cursor: pointer;
+    }
+  }
+
+  &-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 312px;
+  }
+
+  &-button {
+    width: 151px;
+    text-align: center;
+
+    &__span {
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
+.input {
+  &-block {
+    display: flex;
+    margin-bottom: 33px;
+
+    &__button {
+      padding: 0 47px;
+      background-color: #6666cc;
+      border-radius: 2px;
+      color: #ffffff;
+
+    }
+  }
+
+}

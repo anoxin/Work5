@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./css/bootstrap.min.css" rel="stylesheet">
+  <link href="./css/style.css" rel="stylesheet">
+  <title>Work5</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-sm-2 col-2">
+          <img src="./img/header/logo.png" alt="logo: work5">
+        </div>
+        <div class="col-xl-3 offset-xl-1 col-lg-3 offset-lg-2 d-none d-lg-block">
+          <ul class="breadcrumb-list">
+            <li class="breadcrumb-list__item">
+              <a href="#" class="breadcrumb-list__link">Главная</a>
+            </li>
+            <li class="breadcrumb-list__item">
+              <a href="#" class="breadcrumb-list__link">Мои магазины</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-xl-4 offset-xl-2 col-lg-5 offset-lg-0 col-md-6 offset-md-4 col-sm-6 offset-sm-4 col-6 offset-4  d-flex
+          justify-content-end">
+          <div class="user">
+
+            <a href="#" class="user__message">
+              <img src="./img/header/message.png" alt="icon: message">
+            </a>
+            <!-- /.user_message -->
+            <a href="#" class="user__info">
+              <div class="user__image"></div>
+              <span class="user__name d-none d-md-block">Максим Добжанский</span>
+            </a>
+            <!-- /.user__about -->
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+  </header>
+  <main class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-lg-4">
+          <nav class="navbar menu">
+            <div class="main__close">
+              <button class="close-menu">&#10006;</button>
+            </div>
+            <ul class="navbar__list">
+              <li class="navbar__item">
+                <a href="#" class="navbar__logo"><img src="./img/header/logo.png" alt="logo: work5"></a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link navbar__link_home">Главная</a>
+              </li>
+              <li class="navbar__item navbar__item-active">
+                <a href="#" class="navbar__link navbar__link_shopping">Мои магазины</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link navbar__link_megaphone">Промоматериалы</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link navbar__link_statistics">Статистика</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link navbar__link_balance">Баланс</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link navbar__link_personal">Персональные данные</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link navbar__link_questions">FAQ</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link navbar__link_technical-support">Техподдержка</a>
+              </li>
+              <li class="navbar__item">
+                <a href="#" class="navbar__link navbar__link_logout">Выход</a>
+              </li>
+            </ul>
+
+          </nav>
+        </div>
+        <div class="col-xl-9 col-lg-8">
+          <div class="nav-menu">
+            <ul class="nav-menu__list nav-menu__menu">
+              <li class="nav-menu__item nav-menu__item_menu">
+                <a href="#" class="nav-menu__link nav-menu__link_menu open-menu">МЕНЮ</a>
+              </li>
+            </ul>
+          </div>
+          <button class="button button_bottom open-modal"><img src="./img/main/plus.png" alt="icon: plus">Создать свой
+            магазин</button>
+          <h2 class="title title_bottom">Управление магазинами</h2>
+          <div class="table">
+            <div class="table__name-columns">
+              <div class="row">
+                <div class="col-xl-1 col-lg-2 col-md-2 col-sm-3 col-3">
+                  <span class="table__item table__item_bold">№</span>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5 col-5">
+                  <span class="table__item table__item_bold">Название</span>
+                </div>
+                <div class="col-xl-3 d-none d-xl-block">
+                  <span class="table__item table__item_bold">Адрес</span>
+                </div>
+                <div class="col-xl-6 col-lg-8 col-md-7 col-sm-4 col-4">
+                  <span class="table__item table__item_right table__item_bold">Действие</span>
+                </div>
+              </div>
+            </div>
+            <!-- /.table__name-columns -->
+            <div class="table__item">
+              <div class="row">
+                <div class="col-xl-1 col-lg-2 col-md-2 col-sm-3 col-3">
+                  <span class="table__item">12345</span>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5 col-5">
+                  <span class="table__item">Дипломная работа</span>
+                </div>
+                <div class="col-xl-3 d-none d-xl-block">
+                  <span class="table__item">http://www.work5.ru/services</span>
+                </div>
+                <div class="col-xl-6 col-lg-8 col-md-7 col-sm-4 col-4 d-flex">
+                  <div class="table__buttons">
+                    <button class="button"><img class="image-right" src="./img/main/pencil.png" alt="icon: pencil"><span
+                        class="d-none d-md-block">Редактировать</span></button>
+                    <button class="button button_grey"><img class="image-right" src="./img/main/cancel.png"
+                        alt="icon: cancel"><span class="d-none d-md-block">Редактировать</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.table__item -->
+            <div class="row">
+              <hr>
+            </div>
+            <div class="table__item">
+              <div class="row">
+                <div class="col-xl-1 col-lg-2 col-md-2 col-sm-3 col-3">
+                  <span class="table__item">12345</span>
+                </div>
+                <div class="col-xl-2 col-lg-2 col-md-3 col-sm-5 col-5">
+                  <span class="table__item">Дипломная работа</span>
+                </div>
+                <div class="col-xl-3 d-none d-xl-block">
+                  <span class="table__item">http://www.work5.ru/services</span>
+                </div>
+                <div class="col-xl-6 col-lg-8 col-md-7 col-sm-4 col-4 d-flex">
+                  <div class="table__buttons">
+                    <button class="button"><img class="image-right" src="./img/main/pencil.png" alt="icon: pencil"><span
+                        class="d-none d-md-block">Редактировать</span></button>
+                    <button class="button button_grey"><img class="image-right" src="./img/main/cancel.png"
+                        alt="icon: cancel"><span class="d-none d-md-block">Редактировать</span></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.table__item -->
+          </div>
+          <!-- /.table -->
+        </div>
+      </div>
+      <!-- /.row -->
+    </div>
+    <!-- /.container -->
+
+  </main>
+
+  <div class="modal">
+    <div class="modal-window">
+      <div class="modal-window__up">
+        <h2 class="modal-window__title">Создать магазин</h2>
+        <a href="#" class="modal-window__close close-modal">&#10006;</a>
+      </div>
+      <form action="send.php" method="post" class="modal-window__form" novalidate>
+        <div class="modal-window__select-blocks">
+          <div class="modal-window__select-block">
+            <span class="modal-window__text">Шаблон</span>
+            <select name="theme" class="modal-window__select">
+              <option value="none" class="modal-window__item" hidden>Стандартный</option>
+              <option value="HTML" class="modal-window__item">1</option>
+              <option value="CSS" class="modal-window__item">2</option>
+              <option value="JavaScript" class="modal-window__item">3</option>
+            </select>
+          </div>
+          <div class="modal-window__select-block">
+            <span class="modal-window__text">Цветовая схема</span>
+            <select name="theme" class="modal-window__select">
+              <option value="none" class="modal-window__item" hidden>Классическая</option>
+              <option value="HTML" class="modal-window__item">1</option>
+              <option value="CSS" class="modal-window__item">2</option>
+              <option value="JavaScript" class="modal-window__item">3</option>
+            </select>
+          </div>
+        </div>
+        <span class="modal-window__text">Домен</span>
+        <div class="input-block">
+          <input type="email" class="input modal-window__input" name="email" placeholder="Например: ivangrozniy">
+          <button class="input-block__button">.work5.ru</button>
+        </div>
+        <div class="modal-window__warning">
+          <img class="modal-window__warning-image" src="./img/modal/warning.png" alt="image: warning">
+          <p class="modal-window__warning-text">В названии домена разрешены латиница и “-”, запрещается использовать
+            словосочетание Work 5. После создания
+            магазина Вы сможете прикрутить свой домен (например ivangrozniy.ru). Подробнее по <a href="#"
+              class="modal-window__warning-link">ссылке</a></p>
+        </div>
+        <div class="modal-buttons">
+          <button class="button modal-button" type="reset"><span class="modal-button__span">Отмена</span></button>
+          <button class="button button_grey modal-button" type="submit"><span
+              class="modal-button__span">Отправить</span></button>
+        </div>
+      </form>
+    </div>
+    <!-- /.modal-window -->
+  </div>
+  <!-- /.modal -->
+
+  <script src="./js/bootstrap.bundle.min.js">
+  </script>
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
